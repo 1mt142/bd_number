@@ -1,0 +1,23 @@
+{
+  "name": "bd_number",
+  "version": "1.0.1",
+  "description": "for bd number system",
+  "main": "index.js",
+  "scripts": {
+    "test": "devmod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsking-bd/bd_number.git"
+  },
+  "keywords": [
+    "bangla",
+    "Number System"
+  ],
+  "author": "imtiaz khandoker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsking-bd/bd_number/issues"
+  },
+  "homepage": "https://github.com/jsking-bd/bd_number#readme"
+}
