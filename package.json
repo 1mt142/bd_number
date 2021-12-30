@@ -1,6 +1,6 @@
 {
   "name": "bd_number",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "for bd number system",
   "main": "index.js",
   "scripts": {
