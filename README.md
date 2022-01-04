@@ -1,6 +1,7 @@
 # Bangla Number Conversion
 
-**_ Convert Bangla Number to English Number,English Number to Bangla Number _**
+Convert Bangla Number to English Number,English Number to Bangla Number
+and English Number to Bangla Word
 
 ## Install
 
