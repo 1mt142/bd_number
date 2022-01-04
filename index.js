@@ -3,12 +3,8 @@
  * @return {String}
  */
 
-function bnToEnNum(banglaNumber = "") {
-  if (typeof banglaNumber !== "string") {
-    throw {
-      message: `${banglaNumber} must be string and Bangla number`,
-    };
-  }
+function bnToEnNum(banglaNumber) {
+  banglaNumber = String(banglaNumber);
   String.prototype.gValue = function () {
     const enumStore = {
       "০": "0",
@@ -32,16 +28,12 @@ function bnToEnNum(banglaNumber = "") {
 }
 
 /**
- * @param {Number} englishNumber
+ * @param {String} englishNumber
  * @return {String}
  */
 
-function enToBnNum(englishNumber = "") {
-  if (typeof englishNumber === "number") {
-    throw {
-      message: `${englishNumber} must be number`,
-    };
-  }
+function enToBnNum(englishNumber) {
+  englishNumber = String(englishNumber);
   String.prototype.gValue = function () {
     const bNumStore = {
       "0": "০",
@@ -63,4 +55,5 @@ function enToBnNum(englishNumber = "") {
   };
   return englishNumber.gValue();
 }
+
 module.exports = { bnToEnNum, enToBnNum };
