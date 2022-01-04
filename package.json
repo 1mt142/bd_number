@@ -1,27 +1,26 @@
+
 {
   "name": "bd_number",
-  "version": "2.0.2",
+  "version": "2.0.4",
   "description": "for bd number system",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "start": "node index.js"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jsking-bd/bd_number.git"
   },
   "keywords": [
-    "Bangla to English",
-    "Number System"
+    "Convert",
+    "Bangla to English Number",
+    "English to Bangla Number",
+    "Number Conversion Package"
   ],
   "author": "imtiaz khandoker",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/jsking-bd/bd_number/issues"
   },
-  "homepage": "https://github.com/jsking-bd/bd_number#readme",
-  "devDependencies": {
-    "jest": "^27.4.5"
-  }
+  "homepage": "https://github.com/jsking-bd/bd_number#readme"
 }
