@@ -1,6 +1,6 @@
 /**
  * @param {String} banglaNumber
- * @return {number}
+ * @return {String}
  */
 
 function bnToEnNum(banglaNumber = "") {
@@ -10,7 +10,7 @@ function bnToEnNum(banglaNumber = "") {
     };
   }
   String.prototype.gValue = function () {
-    const numStore = {
+    const enumStore = {
       "০": "0",
       "১": "1",
       "২": "2",
@@ -23,11 +23,44 @@ function bnToEnNum(banglaNumber = "") {
       "৯": "9",
     };
     let gx = this;
-    for (let x in numStore) {
-      gx = gx.replace(new RegExp(x, "g"), numStore[x]);
+    for (let x in enumStore) {
+      gx = gx.replace(new RegExp(x, "g"), enumStore[x]);
     }
     return gx;
   };
   return banglaNumber.gValue();
 }
-module.exports = { bnToEnNum };
+
+/**
+ * @param {Number} englishNumber
+ * @return {String}
+ */
+
+function enToBnNum(englishNumber = "") {
+  if (typeof englishNumber === "number") {
+    throw {
+      message: `${englishNumber} must be number`,
+    };
+  }
+  String.prototype.gValue = function () {
+    const bNumStore = {
+      "0": "০",
+      "1": "১",
+      "2": "২",
+      "3": "৩",
+      "4": "৪",
+      "5": "৫",
+      "6": "৬",
+      "7": "৭",
+      "8": "৮",
+      "9": "৯",
+    };
+    let gx = this;
+    for (let x in bNumStore) {
+      gx = gx.replace(new RegExp(x, "g"), bNumStore[x]);
+    }
+    return gx;
+  };
+  return englishNumber.gValue();
+}
+module.exports = { bnToEnNum, enToBnNum };
