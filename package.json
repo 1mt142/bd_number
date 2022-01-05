@@ -2,7 +2,7 @@
 {
   "name": "bd_number",
   "version": "2.0.6",
-  "description": "for bangla number conversion system",
+  "description": "This package is for bangla number conversion",
   "main": "./lib/index.js",
   "scripts": {
     "test": "jest"
