@@ -1,8 +1,8 @@
 
 {
   "name": "bd_number",
-  "version": "2.0.5",
-  "description": "for bd number system",
+  "version": "2.0.6",
+  "description": "for bangla number conversion system",
   "main": "./lib/index.js",
   "scripts": {
     "test": "jest"
