@@ -1,9 +1,9 @@
 
 {
   "name": "bd_number",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "for bd number system",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "jest"
   },
@@ -13,12 +13,13 @@
   },
   "keywords": [
     "Convert",
+    "Amount to Bangla Word",
     "Bangla to English Number",
     "English to Bangla Number",
     "Number Conversion Package"
   ],
-  "author": "imtiaz khandoker",
-  "license": "ISC",
+  "author": "Imtiaz Khandoker",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jsking-bd/bd_number/issues"
   },
