@@ -1,3 +1,8 @@
+<p align="center">
+  <a href="https://npmcharts.com/compare/bd_number?minimal=true"><img src="https://img.shields.io/npm/dm/bd_number.svg?sanitize=true" alt="Downloads"></a>
+  <a href="https://www.npmjs.com/package/bd_number"><img src="https://img.shields.io/npm/v/bd_number.svg?sanitize=true" alt="Version"></a>
+  <a href="https://www.npmjs.com/package/bd_number"><img src="https://img.shields.io/npm/l/bd_number.svg?sanitize=true" alt="License"></a>
+</p>
 # Bangla Number Conversion
 
 Convert Bangla Number to English Number,English Number to Bangla Number<br/>and English Number to Bangla Word
