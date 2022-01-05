@@ -8,6 +8,14 @@ Convert Bangla Number to English Number,English Number to Bangla Number<br/>and 
 $ npm install --save bd_number
 ```
 
+## Usage | English To Bangla Word
+
+```javascript
+const { enToBnWord } = require("bd_number");
+let word = enToBnWord(12433334);
+console.log(word); // এক কোটি চব্বিশ লাখ তেত্রিশ হাজার তিনশ চৌত্রিশ
+```
+
 ## Usage | Bangla To English Number
 
 ```javascript
@@ -22,12 +30,4 @@ console.log(en); // 826
 const { enToBnNum } = require("bd_number");
 let bn = enToBnNum("826");
 console.log(bn); // ৮২৬
-```
-
-## Usage | English To Bangla Word
-
-```javascript
-const { enToBnWord } = require("bd_number");
-let word = enToBnWord(12433334);
-console.log(word); // এক কোটি চব্বিশ লাখ তেত্রিশ হাজার তিনশ চৌত্রিশ
 ```
