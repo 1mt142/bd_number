@@ -37,3 +37,44 @@ const { enToBnNum } = require("bd_number");
 let bn = enToBnNum("826");
 console.log(bn); // ৮২৬
 ```
+
+## Usage | Bangladeshi Phone Number Validator
+
+```javascript
+const { isValidPhone } = require("bd_number");
+let isOkThisNumber = isValidPhone("01739000000");
+console.log(isOkThisNumber); // true
+```
+
+```javascript
+const { getNumInfo } = require("bd_number");
+let numberInfo = getNumInfo("01739000000");
+console.log(numberInfo);
+
+// Output | If [isValidPhone: true]
+{
+  inputLength: 11,
+  isValidPhone: true,
+  hasOperator: true,
+  operatorStatus: '(017) Valid Operator',
+  withCountryCode: '+8801739000000',
+  status: '+8801739000000'
+}
+
+// Output | If [isValidPhone: false]
+// When | getNumInfo("0173900000000")
+{
+  inputLength: 13,
+  isValidPhone: false,
+  hasOperator: true,
+  operatorStatus: '(017) Valid Operator',
+  withCountryCode: '+8801739000000',
+  status: '+8801739000000',
+  exceed: 2,
+  hasExceed: true,
+  originalNumber: '+880173900000000',
+  exceedDigit: '00',
+  errorStatus: 'Exceed 2 Digit'
+}
+
+```
