@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jsking-bd/bd_number.git"
+    "url": "git+https://github.com/1mt142/bd_number.git"
   },
   "keywords": [
     "Convert",
@@ -21,7 +21,7 @@
   "author": "Imtiaz Khandoker",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jsking-bd/bd_number/issues"
+    "url": "https://github.com/1mt142/bd_number/issues"
   },
-  "homepage": "https://github.com/jsking-bd/bd_number#readme"
+  "homepage": "https://github.com/1mt142/bd_number#readme"
 }
