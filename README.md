@@ -46,6 +46,8 @@ let isOkThisNumber = isValidPhone("01739000000");
 console.log(isOkThisNumber); // true
 ```
 
+### getNumInfo | If phone number is valid
+
 ```javascript
 const { getNumInfo } = require("bd_number");
 let numberInfo = getNumInfo("01739000000");
@@ -62,6 +64,8 @@ console.log(numberInfo);
 }
 
 ```
+
+### getNumInfo | If phone number is invalid
 
 ```javascript
 const { getNumInfo } = require("bd_number");
