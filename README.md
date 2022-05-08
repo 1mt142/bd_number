@@ -42,6 +42,9 @@ console.log(bn); // ৮২৬
 
 ```javascript
 const { isValidPhone } = require("bd_number");
+// OR
+const { isValidPhone } = require("bd_number/lib/phone");
+
 let isOkThisNumber = isValidPhone("01739000000");
 console.log(isOkThisNumber); // true
 ```
@@ -50,6 +53,9 @@ console.log(isOkThisNumber); // true
 
 ```javascript
 const { getNumInfo } = require("bd_number");
+// OR
+const { getNumInfo } = require("bd_number/lib/phone");
+
 let numberInfo = getNumInfo("01739000000");
 console.log(numberInfo);
 
@@ -69,11 +75,13 @@ console.log(numberInfo);
 
 ```javascript
 const { getNumInfo } = require("bd_number");
+// OR
+const { getNumInfo } = require("bd_number/lib/phone");
+
 let numberInfo = getNumInfo("0173900000000");
 console.log(numberInfo);
 
 // Output | If [isValidPhone: false]
-
 {
   inputLength: 13,
   isValidPhone: false,
