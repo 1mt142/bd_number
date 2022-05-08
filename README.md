@@ -61,8 +61,15 @@ console.log(numberInfo);
   status: '+8801739000000'
 }
 
+```
+
+```javascript
+const { getNumInfo } = require("bd_number");
+let numberInfo = getNumInfo("0173900000000");
+console.log(numberInfo);
+
 // Output | If [isValidPhone: false]
-// When | getNumInfo("0173900000000")
+
 {
   inputLength: 13,
   isValidPhone: false,
