@@ -1,7 +1,7 @@
 
 {
   "name": "bd_number",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "This package is for bangla number conversion",
   "main": "./lib/index.js",
   "scripts": {
@@ -19,7 +19,8 @@
     "Bangla to English Number",
     "English to Bangla Number",
     "Number Conversion Package",
-    "BD Phone Number Validator"
+    "BD Phone Number Validator",
+    "Number to Word in BDT Format"
   ],
   "author": "Imtiaz Khandoker",
   "license": "MIT",

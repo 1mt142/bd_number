@@ -7,6 +7,7 @@
 # Bangla Number Conversion
 
 Convert Bangla Number to English Number,English Number to Bangla Number<br/>and English Number to Bangla Word
+<br/> English Number To BDT Word in English <br/>Bangladeshi Phone Number Validator
 
 ## Install
 
@@ -96,4 +97,16 @@ console.log(numberInfo);
   errorStatus: 'Exceed 2 Digit'
 }
 
+```
+
+## Usage | English Number To BDT Word in English
+
+```javascript
+const { numToBDTWord } = require("bd_number");
+// OR
+const { numToBDTWord } = require("bd_number/lib/numToWord");
+
+let finalAmount = numToBDTWord(128357.66);
+console.log(finalAmount);
+// Output : One Lakh Twenty Eight Thousand Three Hundred And Fifty Seven Taka And Sixty Six Paisa
 ```
