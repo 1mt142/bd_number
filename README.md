@@ -6,7 +6,7 @@
 
 # Bangla Number Conversion
 
-Convert Bangla Number to English Number,English Number to Bangla Number ,English Number to Bangla Word, English Number To BDT Word in English, Bangladeshi Phone Number Validator <br/>
+Convert Bangla Number to English Number,English Number to Bangla Number ,English Number to Bangla Word, English Number To BDT Word in English and Bangladeshi Phone Number Validator <br/>
 
 ## Install
 
