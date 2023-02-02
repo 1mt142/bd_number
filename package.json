@@ -1,7 +1,7 @@
 
 {
   "name": "bd_number",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "This package is for bangla number conversion",
   "main": "./lib/index.js",
   "scripts": {

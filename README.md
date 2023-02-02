@@ -4,9 +4,16 @@
   <a href="https://www.npmjs.com/package/bd_number"><img src="https://img.shields.io/npm/l/bd_number.svg?sanitize=true" alt="License"></a>
 </p>
 
-# Bangla Number Conversion
+# "bd_number"
 
-Convert Bangla Number to English Number,English Number to Bangla Number ,English Number to Bangla Word, English Number To BDT Word in English and Bangladeshi Phone Number Validator <br/>
+"bd_number": An Open Source JavaScript Library for Bangla Number Conversion and Phone Number Validator.
+<br/>
+
+In today's world, it's important for websites and applications to be accessible and usable by a global audience. This includes not only the language used in the text, but also the format of numbers and dates. To address this need, an open source JavaScript library, "bd_number," has been developed specifically for converting numbers to Bangla text.
+<br/>
+
+"bd_number" is a small, lightweight library that makes it easy for developers to convert Bangla Number to English Number,English Number to Bangla Number ,English Number to Bangla Word, English Number To BDT Word in English and Bangladeshi Phone Number Validator representation. It is completely open source and can be used in any web project without any restrictions.
+<br/>
 
 ## Install
 
